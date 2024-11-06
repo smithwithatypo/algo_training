@@ -19,3 +19,8 @@
 - queue
 - linked list
 - sort in-place vs. copy
+
+
+### To run
+`$ pip install -r requirements.txt`  
+`$ pytest`  
