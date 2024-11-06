@@ -16,4 +16,6 @@
 - DFS: directions for graph traversal
 - DFS: base cases for graph traversal
 - stack
-- 
+- queue
+- linked list
+- sort in-place vs. copy
