@@ -2,6 +2,7 @@
 
 ### Contents
 - binary search
+- OOP basics
 - DFS
 - BFS
 - sliding window
