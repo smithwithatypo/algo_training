@@ -3,23 +3,25 @@
 ### Contents
 - binary search
 - OOP basics
-- DFS
-- BFS
 - sliding window
-- two pointers
 - heap
-- dynamic programming
-- greedy
-- object oriented
+- two pointers
+- sort in-place vs. copy
+- count using a hashmap
+- count alphabet using bucket sort
 - list comprehension
 - recursion
-- hashmap counting
+- quick sort
+- merge sort
+- linked list
+- BFS
+- DFS
 - DFS: directions for graph traversal
 - DFS: base cases for graph traversal
 - stack
 - queue
-- linked list
-- sort in-place vs. copy
+- greedy
+- dynamic programming
 
 
 ### To run
