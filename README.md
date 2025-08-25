@@ -13,7 +13,6 @@ Inspired by my classical music training
 
 
 ## Terminal commands
-
 Random  
 `python3 main.py`
 
@@ -51,3 +50,21 @@ Pick one for multiple repetitions
 - queue
 - greedy
 - dynamic_programming
+
+
+## Quickstart automation
+1. Copy/paste the function below into your .zshrc file and restart your terminal  
+2. Then type `warmup` in your terminal to do a problem in VS Code  
+  
+``` Bash
+warmup() {
+    cd /your/directory/here
+    if [ $# -eq 0 ]; then
+        code warmup.py
+        python3 main.py
+    else
+        code warmup.py
+        python3 main.py "$1" "$2"
+    fi
+}
+```
