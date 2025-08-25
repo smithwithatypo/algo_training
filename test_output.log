@@ -1,0 +1,20 @@
+passed: False, 
+
+ output: ============================= test session starts ==============================
+platform darwin -- Python 3.11.4, pytest-8.3.3, pluggy-1.5.0 -- /Library/Frameworks/Python.framework/Versions/3.11/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/dude/projects/python/algo-training
+plugins: langsmith-0.4.4, anyio-3.7.1
+collecting ... collected 1 item
+
+warmup.py::test_binary_search FAILED                                     [100%]
+
+=================================== FAILURES ===================================
+______________________________ test_binary_search ______________________________
+warmup.py:14: in test_binary_search
+    assert binary_search([1,3,5,7,9], 5) == 2
+E   AssertionError: assert 'h' == 2
+E    +  where 'h' = binary_search([1, 3, 5, 7, 9], 5)
+=========================== short test summary info ============================
+FAILED warmup.py::test_binary_search - AssertionError: assert 'h' == 2
+============================== 1 failed in 0.02s ===============================

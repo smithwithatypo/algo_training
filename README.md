@@ -15,11 +15,14 @@
 - ⭕️ quick sort
 - ⭕️ merge sort
 - ⭕️ linked list
-- ⭕️ BFS
-- ⭕️ DFS
+- ⭕️ tree BFS
+- ⭕️ tree DFS
+- ⭕️ graph BFS
+- ⭕️ graph DFS
 - ⭕️ DFS: directions for graph traversal
 - ⭕️ DFS: base cases for graph traversal
 - ⭕️ stack
+- ⭕️ prefix sum
 - ⭕️ queue
 - ⭕️ greedy
 - ⭕️ dynamic programming
