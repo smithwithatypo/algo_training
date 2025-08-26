@@ -28,6 +28,7 @@ Pick one for multiple repetitions
 - binary_search
 - oop_basics
 - sliding_window
+- contains_duplicate
 - min_heap
 - max_heap
 - two_pointers

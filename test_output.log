@@ -1,6 +1,6 @@
-passed: False, 
+passed: False
 
- output: ============================= test session starts ==============================
+pytest output: ============================= test session starts ==============================
 platform darwin -- Python 3.11.4, pytest-8.3.3, pluggy-1.5.0 -- /Library/Frameworks/Python.framework/Versions/3.11/bin/python3
 cachedir: .pytest_cache
 rootdir: /Users/dude/projects/python/algo-training
@@ -11,11 +11,47 @@ warmup.py::test_counter FAILED                                           [100%]
 
 =================================== FAILURES ===================================
 _________________________________ test_counter _________________________________
-warmup.py:33: in test_counter
-    assert c.get_value() == 1
-E   assert 2 == 1
-E    +  where 2 = get_value()
-E    +    where get_value = <warmup.Counter object at 0x10349fcd0>.get_value
+warmup.py:26: in test_counter
+    c = Counter()
+E   TypeError: __init__() should return None, not 'str'
 =========================== short test summary info ============================
-FAILED warmup.py::test_counter - assert 2 == 1
+FAILED warmup.py::test_counter - TypeError: __init__() should return None, no...
 ============================== 1 failed in 0.03s ===============================
+
+
+##################################################
+your code:
+##################################################
+# Rep 1/1 - OOP Basics
+
+
+class Counter:
+    """
+    Simple counter that can increment, decrement, and get value.
+    """
+    def __init__(self):
+        # your code here
+        return "yo"
+        pass
+    
+    def increment(self):
+        # your code here
+        pass
+    
+    def decrement(self):
+        # your code here
+        pass
+    
+    def get_value(self):
+        # your code here
+        pass
+
+def test_counter():
+    c = Counter()
+    assert c.get_value() == 0
+    c.increment()
+    assert c.get_value() == 1
+    c.increment()
+    assert c.get_value() == 2
+    c.decrement()
+    assert c.get_value() == 1

@@ -39,22 +39,32 @@ def warmup(problem_name=None, reps=1):
             
             passed, output = run_tests()
             with open('test_output.log', 'w') as f:
-                f.write(f"passed: {passed}, \n\n output: {output}")
+                f.write(f"passed: {passed}\n\n")
+                f.write(f"pytest output:\n {output}\n\n")
+                f.write("#" * 50 + "\n")
+                f.write("your code:\n")
+                f.write("#" * 50 + "\n")
+                try:
+                    with open('warmup.py', 'r') as warmup_file:
+                        f.write(warmup_file.read())
+                except FileNotFoundError:
+                    f.write("warmup.py file not found")            
             
             if passed:
                 warning = ""
                 if rep == reps:
                     clear_screen()
                     print("🎉 All reps complete!")
-                    print("passed all tests!")
                 break
             else:
                 warning = f"# ⚠ Failed test(s) last time"
-                if rep == reps:
-                    clear_screen()
-                    print("🎉 All reps complete!")
-                    print("last attempt failed test(s)")
                 break
+    if warning == "":
+        print("passed all tests!")
+    else:
+        print("last attempt failed test(s)")
+
+
 
 if __name__ == "__main__":
     import sys
