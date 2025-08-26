@@ -1,57 +1,43 @@
-passed: False
+passed: True
 
-pytest output: ============================= test session starts ==============================
+pytest output:
+ ============================= test session starts ==============================
 platform darwin -- Python 3.11.4, pytest-8.3.3, pluggy-1.5.0 -- /Library/Frameworks/Python.framework/Versions/3.11/bin/python3
 cachedir: .pytest_cache
 rootdir: /Users/dude/projects/python/algo-training
 plugins: langsmith-0.4.4, anyio-3.7.1
 collecting ... collected 1 item
 
-warmup.py::test_counter FAILED                                           [100%]
+warmup.py::test_contains_duplicate PASSED                                [100%]
 
-=================================== FAILURES ===================================
-_________________________________ test_counter _________________________________
-warmup.py:26: in test_counter
-    c = Counter()
-E   TypeError: __init__() should return None, not 'str'
-=========================== short test summary info ============================
-FAILED warmup.py::test_counter - TypeError: __init__() should return None, no...
-============================== 1 failed in 0.03s ===============================
+============================== 1 passed in 0.01s ===============================
 
 
 ##################################################
 your code:
 ##################################################
-# Rep 1/1 - OOP Basics
+# Rep 2/2 - Contains Duplicate
 
 
-class Counter:
+def contains_duplicate(nums):
     """
-    Simple counter that can increment, decrement, and get value.
+    Check if array contains any duplicate values.
+    [1,2,3,1] -> True, [1,2,3,4] -> False
     """
-    def __init__(self):
-        # your code here
-        return "yo"
-        pass
-    
-    def increment(self):
-        # your code here
-        pass
-    
-    def decrement(self):
-        # your code here
-        pass
-    
-    def get_value(self):
-        # your code here
-        pass
+    # your code here
+    s = set()
+    for num in nums:
+        if num in s:
+            return True
+        else:
+            s.add(num)
 
-def test_counter():
-    c = Counter()
-    assert c.get_value() == 0
-    c.increment()
-    assert c.get_value() == 1
-    c.increment()
-    assert c.get_value() == 2
-    c.decrement()
-    assert c.get_value() == 1
+    return False
+    pass
+
+def test_contains_duplicate():
+    assert contains_duplicate([1,2,3,1]) == True
+    assert contains_duplicate([1,2,3,4]) == False
+    assert contains_duplicate([1,1,1,3,3,4,3,2,4,2]) == True
+    assert contains_duplicate([]) == False
+    assert contains_duplicate([1]) == False

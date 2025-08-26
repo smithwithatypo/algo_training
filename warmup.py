@@ -1,33 +1,25 @@
-# Rep 1/1 - OOP Basics
+# Rep 2/2 - Contains Duplicate
 
 
-class Counter:
+def contains_duplicate(nums):
     """
-    Simple counter that can increment, decrement, and get value.
+    Check if array contains any duplicate values.
+    [1,2,3,1] -> True, [1,2,3,4] -> False
     """
-    def __init__(self):
-        # your code here
-        return "yo"
-        pass
-    
-    def increment(self):
-        # your code here
-        pass
-    
-    def decrement(self):
-        # your code here
-        pass
-    
-    def get_value(self):
-        # your code here
-        pass
+    # your code here
+    s = set()
+    for num in nums:
+        if num in s:
+            return True
+        else:
+            s.add(num)
 
-def test_counter():
-    c = Counter()
-    assert c.get_value() == 0
-    c.increment()
-    assert c.get_value() == 1
-    c.increment()
-    assert c.get_value() == 2
-    c.decrement()
-    assert c.get_value() == 1
+    return False
+    pass
+
+def test_contains_duplicate():
+    assert contains_duplicate([1,2,3,1]) == True
+    assert contains_duplicate([1,2,3,4]) == False
+    assert contains_duplicate([1,1,1,3,3,4,3,2,4,2]) == True
+    assert contains_duplicate([]) == False
+    assert contains_duplicate([1]) == False

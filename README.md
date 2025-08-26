@@ -55,15 +55,17 @@ Pick one for multiple repetitions
 
 ## Quickstart automation
 1. Copy/paste the function below into your .zshrc file and restart your terminal  
-2. Then type `warmup` in your terminal to do a problem in VS Code  
+2. Then type `warmup` or `warmup topic 5` in your terminal to do a problem in VS Code  
   
 ``` Bash
 warmup() {
     cd /your/directory/path/here
     if [ $# -eq 0 ]; then
+        code test_output.log
         code warmup.py
         python3 main.py
     else
+        code test_output.log
         code warmup.py
         python3 main.py "$1" "$2"
     fi
