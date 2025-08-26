@@ -1,4 +1,3 @@
-# main.py
 import os
 import subprocess
 import random
@@ -25,14 +24,6 @@ def run_tests():
                           capture_output=True, text=True)
     return result.returncode == 0, result.stdout + result.stderr
 
-# def count_failures(test_output):
-    # # Look for pytest's failure indicators
-    # failed_count = test_output.count('FAILED')
-    # # Also check for assertion errors as backup
-    # if failed_count == 0:
-    #     failed_count = test_output.count('AssertionError')
-    # return failed_count
-
 def warmup(problem_name=None, reps=1):
     if not problem_name:
         problem_name = random.choice(list(PROBLEMS.keys()))
@@ -55,19 +46,15 @@ def warmup(problem_name=None, reps=1):
                 if rep == reps:
                     clear_screen()
                     print("🎉 All reps complete!")
+                    print("passed all tests!")
                 break
             else:
-                # failures = count_failures(output)
-                # if failures >= 3:
-                #     clear_screen()
-                #     print("🛑 Fix before continuing")
-                #     print(f"Failed tests: {failures}")
-                #     print(output)
-                #     input("Press Enter when ready...")
-                #     warning = ""  # Clear warning after stop
-                # else:
                 warning = f"# ⚠ Failed test(s) last time"
-                break  # Continue to next rep with warning
+                if rep == reps:
+                    clear_screen()
+                    print("🎉 All reps complete!")
+                    print("last attempt failed test(s)")
+                break
 
 if __name__ == "__main__":
     import sys

@@ -58,7 +58,7 @@ Pick one for multiple repetitions
   
 ``` Bash
 warmup() {
-    cd /your/directory/here
+    cd /your/directory/path/here
     if [ $# -eq 0 ]; then
         code warmup.py
         python3 main.py

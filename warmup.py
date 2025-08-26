@@ -1,17 +1,37 @@
-# Rep 4/5 - Binary Search
+# Rep 2/2 - OOP Basics
+# ⚠ Failed test(s) last time
 
 
-def binary_search(arr, target):
+class Counter:
     """
-    Find target in sorted array. Return index or -1 if not found.
-    arr = [1,3,5,7,9], target = 5 -> return 2
+    Simple counter that can increment, decrement, and get value.
     """
-    # your code here
-    pass
+    def __init__(self):
+        # your code here
+        self.value = 0
+        pass
+    
+    def increment(self):
+        # your code here
+        self.value += 2
+        pass
+    
+    def decrement(self):
+        # your code here
+        self.value -= 10
+        pass
+    
+    def get_value(self):
+        # your code here
+        return self.value
+        pass
 
-def test_binary_search():
-    assert binary_search([1,3,5,7,9], 5) == 2
-    assert binary_search([1,3,5,7,9], 1) == 0
-    assert binary_search([1,3,5,7,9], 9) == 4
-    assert binary_search([1,3,5,7,9], 4) == -1
-    assert binary_search([], 1) == -1
+def test_counter():
+    c = Counter()
+    assert c.get_value() == 0
+    c.increment()
+    assert c.get_value() == 1
+    c.increment()
+    assert c.get_value() == 2
+    c.decrement()
+    assert c.get_value() == 1
