@@ -1,25 +1,30 @@
-# Rep 2/2 - Contains Duplicate
+# Rep 4/4 - Binary Search
 
 
-def contains_duplicate(nums):
+def binary_search(arr, target):
     """
-    Check if array contains any duplicate values.
-    [1,2,3,1] -> True, [1,2,3,4] -> False
+    Find target in sorted array. Return index or -1 if not found.
+    arr = [1,3,5,7,9], target = 5 -> return 2
     """
     # your code here
-    s = set()
-    for num in nums:
-        if num in s:
-            return True
-        else:
-            s.add(num)
+    l = 0
+    r = len(arr) - 1
 
-    return False
+    while l <= r:
+        mid = (l + r) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            l = mid + 1
+        else:
+            r = mid - 1
+    return -1
     pass
 
-def test_contains_duplicate():
-    assert contains_duplicate([1,2,3,1]) == True
-    assert contains_duplicate([1,2,3,4]) == False
-    assert contains_duplicate([1,1,1,3,3,4,3,2,4,2]) == True
-    assert contains_duplicate([]) == False
-    assert contains_duplicate([1]) == False
+
+def test_binary_search():
+    assert binary_search([1, 3, 5, 7, 9], 5) == 2
+    assert binary_search([1, 3, 5, 7, 9], 1) == 0
+    assert binary_search([1, 3, 5, 7, 9], 9) == 4
+    assert binary_search([1, 3, 5, 7, 9], 4) == -1
+    assert binary_search([], 1) == -1

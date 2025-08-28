@@ -1,18 +1,19 @@
-# Algorithm training
-Daily warmups for SWE interview prep sessions  
-Inspired by my classical music training
 
+# Algorithm training  
+
+Daily warmups for SWE interview prep sessions  
+Inspired by classical music training
 
 ## To Use
+
 1. Open your terminal
 2. Run one of the following terminal commands
 3. Open "warmup.py" in your IDE
 4. Code your solution
 5. Hit "Enter" in your original terminal window and repeat from step 3
 
-
-
 ## Terminal commands
+
 Random  
 `python3 main.py`
 
@@ -22,9 +23,8 @@ Pick one from below
 Pick one for multiple repetitions  
 `python3 main.py binary_search 5`
 
-
-
 ## Contents
+
 - binary_search
 - oop_basics
 - sliding_window
@@ -52,8 +52,8 @@ Pick one for multiple repetitions
 - greedy
 - dynamic_programming
 
-
 ## Quickstart automation
+
 1. Copy/paste the function below into your .zshrc file and restart your terminal  
 2. Then type `warmup` or `warmup topic 5` in your terminal to do a problem in VS Code  
   
