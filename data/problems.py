@@ -1,5 +1,3 @@
-# problems.py
-
 PROBLEMS = {
     "binary_search": {
         "title": "Binary Search",
@@ -17,9 +15,8 @@ def test_binary_search():
     assert binary_search([1,3,5,7,9], 9) == 4
     assert binary_search([1,3,5,7,9], 4) == -1
     assert binary_search([], 1) == -1
-'''
+''',
     },
-
     "oop_basics": {
         "title": "OOP Basics",
         "template": '''class Counter:
@@ -51,9 +48,8 @@ def test_counter():
     assert c.get_value() == 2
     c.decrement()
     assert c.get_value() == 1
-'''
+''',
     },
-
     "sliding_window": {
         "title": "Sliding Window",
         "template": '''def max_sum_subarray(arr, k):
@@ -69,9 +65,8 @@ def test_max_sum_subarray():
     assert max_sum_subarray([2,1,5,1,3,2], 3) == 9
     assert max_sum_subarray([2,3,4,1,5], 2) == 7
     assert max_sum_subarray([1], 1) == 1
-'''
+''',
     },
-
     "contains_duplicate": {
         "title": "Contains Duplicate",
         "template": '''def contains_duplicate(nums):
@@ -88,9 +83,8 @@ def test_contains_duplicate():
     assert contains_duplicate([1,1,1,3,3,4,3,2,4,2]) == True
     assert contains_duplicate([]) == False
     assert contains_duplicate([1]) == False
-'''
+''',
     },
-
     "min_heap": {
         "title": "Min Heap",
         "template": '''import heapq
@@ -108,9 +102,8 @@ def test_find_k_smallest():
     assert find_k_smallest([1,2,3,4,5], 2) == [1,2]
     assert find_k_smallest([5], 1) == [5]
     assert find_k_smallest([3,2,1], 3) == [1,2,3]
-'''
+''',
     },
-
     "max_heap": {
         "title": "Max Heap",
         "template": '''import heapq
@@ -128,9 +121,8 @@ def test_find_k_largest():
     assert find_k_largest([1,2,3,4,5], 2) == [5,4]
     assert find_k_largest([5], 1) == [5]
     assert find_k_largest([3,2,1], 3) == [3,2,1]
-'''
+''',
     },
-
     "two_pointers": {
         "title": "Two Pointers",
         "template": '''def two_sum_sorted(arr, target):
@@ -146,9 +138,8 @@ def test_two_sum_sorted():
     assert two_sum_sorted([2,7,11,15], 9) == [0,1]
     assert two_sum_sorted([1,2,3,4], 7) == [2,3]
     assert two_sum_sorted([1,2], 3) == [0,1]
-'''
+''',
     },
-
     "sort_inplace_vs_copy": {
         "title": "Sort In-Place vs Copy",
         "template": '''def sort_both_ways(arr):
@@ -167,9 +158,8 @@ def test_sort_both_ways():
     assert result[1] == [1,1,3,4,5]  # return copy result
     assert result[0] is arr1  # should be same object
     assert result[1] is not arr1  # should be different object
-'''
+''',
     },
-
     "count_using_hashmap": {
         "title": "Count Using Hashmap",
         "template": '''def count_characters(s):
@@ -185,33 +175,8 @@ def test_count_characters():
     assert count_characters("aab") == {"a": 2, "b": 1}
     assert count_characters("") == {}
     assert count_characters("a") == {"a": 1}
-'''
+''',
     },
-
-    "count_alphabet_bucket_sort": {
-        "title": "Count Alphabet Using Bucket Sort",
-        "template": '''def count_letters(s):
-    """
-    Count only lowercase letters a-z using fixed-size array (bucket sort concept).
-    Return list of 26 counts. "abc" -> [1,1,1,0,0,...,0]
-    """
-    # your code here
-    pass
-
-def test_count_letters():
-    result = count_letters("abc")
-    assert result[:3] == [1,1,1]
-    assert sum(result[3:]) == 0
-    assert len(result) == 26
-    
-    result = count_letters("hello")
-    assert result[4] == 1  # e
-    assert result[7] == 1  # h
-    assert result[11] == 2  # l
-    assert result[14] == 1  # o
-'''
-    },
-
     "list_comprehension": {
         "title": "List Comprehension",
         "template": '''def process_numbers(nums):
@@ -227,9 +192,8 @@ def test_process_numbers():
     assert process_numbers([1,3,5]) == []
     assert process_numbers([2,4]) == [4,16]
     assert process_numbers([]) == []
-'''
+''',
     },
-
     "recursion": {
         "title": "Recursion",
         "template": '''def factorial(n):
@@ -245,45 +209,8 @@ def test_factorial():
     assert factorial(1) == 1
     assert factorial(5) == 120
     assert factorial(3) == 6
-'''
+''',
     },
-
-    "quick_sort": {
-        "title": "Quick Sort",
-        "template": '''def quick_sort(arr):
-    """
-    Sort array using quicksort algorithm.
-    [3,1,4,1,5] -> [1,1,3,4,5]
-    """
-    # your code here
-    pass
-
-def test_quick_sort():
-    assert quick_sort([3,1,4,1,5]) == [1,1,3,4,5]
-    assert quick_sort([1]) == [1]
-    assert quick_sort([]) == []
-    assert quick_sort([3,2,1]) == [1,2,3]
-'''
-    },
-
-    "merge_sort": {
-        "title": "Merge Sort",
-        "template": '''def merge_sort(arr):
-    """
-    Sort array using merge sort algorithm.
-    [3,1,4,1,5] -> [1,1,3,4,5]
-    """
-    # your code here
-    pass
-
-def test_merge_sort():
-    assert merge_sort([3,1,4,1,5]) == [1,1,3,4,5]
-    assert merge_sort([1]) == [1]
-    assert merge_sort([]) == []
-    assert merge_sort([3,2,1]) == [1,2,3]
-'''
-    },
-
     "linked_list": {
         "title": "Linked List",
         "template": '''class ListNode:
@@ -311,9 +238,8 @@ def test_reverse_linked_list():
     assert new_head.next.val == 2
     assert new_head.next.next.val == 1
     assert new_head.next.next.next is None
-'''
+''',
     },
-
     "tree_bfs": {
         "title": "Tree BFS",
         "template": '''from collections import deque
@@ -343,9 +269,8 @@ def test_level_order_traversal():
     assert level_order_traversal(root) == [1]
     
     assert level_order_traversal(None) == []
-'''
+''',
     },
-
     "tree_dfs": {
         "title": "Tree DFS",
         "template": '''class TreeNode:
@@ -373,9 +298,8 @@ def test_inorder_traversal():
     assert inorder_traversal(root) == [1]
     
     assert inorder_traversal(None) == []
-'''
+''',
     },
-
     "graph_bfs": {
         "title": "Graph BFS",
         "template": '''from collections import deque
@@ -396,9 +320,8 @@ def test_bfs_shortest_path():
     
     graph2 = {"A": ["B"], "B": []}
     assert bfs_shortest_path(graph2, "A", "B") == 1
-'''
+''',
     },
-
     "graph_dfs": {
         "title": "Graph DFS",
         "template": '''def has_path_dfs(graph, start, end):
@@ -415,9 +338,8 @@ def test_has_path_dfs():
     assert has_path_dfs(graph, "A", "D") == True
     assert has_path_dfs(graph, "A", "A") == True
     assert has_path_dfs(graph, "C", "D") == False
-'''
+''',
     },
-
     "dfs_directions": {
         "title": "DFS: Directions for Graph Traversal",
         "template": '''def count_islands(grid):
@@ -436,9 +358,8 @@ def test_count_islands():
     assert count_islands(grid2) == 1
     
     assert count_islands([]) == 0
-'''
+''',
     },
-
     "dfs_base_cases": {
         "title": "DFS: Base Cases for Graph Traversal",
         "template": '''def max_path_sum(grid):
@@ -456,9 +377,8 @@ def test_max_path_sum():
     
     assert max_path_sum([[1]]) == 1
     assert max_path_sum([[1,2],[3,4]]) == 8
-'''
+''',
     },
-
     "stack": {
         "title": "Stack",
         "template": '''def valid_parentheses(s):
@@ -475,9 +395,8 @@ def test_valid_parentheses():
     assert valid_parentheses("(]") == False
     assert valid_parentheses("([)]") == False
     assert valid_parentheses("") == True
-'''
+''',
     },
-
     "prefix_sum": {
         "title": "Prefix Sum",
         "template": '''def range_sum_query(nums, queries):
@@ -492,9 +411,8 @@ def test_range_sum_query():
     assert range_sum_query([1,2,3,4], [(0,2), (1,3)]) == [6, 9]
     assert range_sum_query([1], [(0,0)]) == [1]
     assert range_sum_query([1,2,3], [(0,2), (0,1)]) == [6, 3]
-'''
+''',
     },
-
     "queue": {
         "title": "Queue",
         "template": '''from collections import deque
@@ -511,9 +429,8 @@ def test_sliding_window_maximum():
     assert sliding_window_maximum([1,3,-1,-3,5,3,6,7], 3) == [3,3,5,5,6,7]
     assert sliding_window_maximum([1], 1) == [1]
     assert sliding_window_maximum([1,2,3], 2) == [2,3]
-'''
+''',
     },
-
     "greedy": {
         "title": "Greedy",
         "template": '''def max_meetings(start_times, end_times):
@@ -531,9 +448,8 @@ def test_max_meetings():
     
     assert max_meetings([1], [2]) == 1
     assert max_meetings([1,2], [2,3]) == 2
-'''
+''',
     },
-
     "dynamic_programming": {
         "title": "Dynamic Programming",
         "template": '''def climb_stairs(n):
@@ -550,6 +466,6 @@ def test_climb_stairs():
     assert climb_stairs(3) == 3
     assert climb_stairs(4) == 5
     assert climb_stairs(5) == 8
-'''
-    }
+''',
+    },
 }

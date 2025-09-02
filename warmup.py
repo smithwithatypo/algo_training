@@ -1,30 +1,18 @@
-# Rep 4/4 - Binary Search
+# Rep 1/1 - Recursion
 
 
-def binary_search(arr, target):
+def factorial(n):
     """
-    Find target in sorted array. Return index or -1 if not found.
-    arr = [1,3,5,7,9], target = 5 -> return 2
+    Calculate factorial using recursion.
+    factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
     """
-    # your code here
-    l = 0
-    r = len(arr) - 1
+    # your code here - must use recursion
 
-    while l <= r:
-        mid = (l + r) // 2
-        if arr[mid] == target:
-            return mid
-        elif arr[mid] < target:
-            l = mid + 1
-        else:
-            r = mid - 1
-    return -1
     pass
 
 
-def test_binary_search():
-    assert binary_search([1, 3, 5, 7, 9], 5) == 2
-    assert binary_search([1, 3, 5, 7, 9], 1) == 0
-    assert binary_search([1, 3, 5, 7, 9], 9) == 4
-    assert binary_search([1, 3, 5, 7, 9], 4) == -1
-    assert binary_search([], 1) == -1
+def test_factorial():
+    assert factorial(0) == 1
+    assert factorial(1) == 1
+    assert factorial(5) == 120
+    assert factorial(3) == 6

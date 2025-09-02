@@ -23,8 +23,20 @@ Pick one from below
 Pick one for multiple repetitions  
 `python3 main.py binary_search 5`
 
-## Contents
+## Warmups
 
+- binary_search
+- two_pointers
+- sliding_window
+- count
+- tree_dfs
+- recursion
+- linked_list
+- stack
+
+## Exercises
+
+- ( under construction )
 - binary_search
 - oop_basics
 - sliding_window
