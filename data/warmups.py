@@ -151,6 +151,7 @@ def test_reverse_linked_list():
     "()" -> True, "()[]{}" -> True, "(]" -> False
     """
     # your code here
+    pairs = {')': '(', ']': '[', '}': '{'}
     pass
 
 def test_valid_parentheses():
