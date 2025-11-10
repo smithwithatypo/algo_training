@@ -7,10 +7,12 @@ Inspired by classical music training
 ## How To Use
 
 1. Open your terminal
-2. Run one of the Terminal Commands from the next section
-3. Open `warmup.py`
-4. Code up your solution
-5. Hit "Enter" in your original terminal window and repeat from step 3
+1. Install the dependencies  
+    1. `pip install -r requirements.txt`
+1. Run one of the Terminal Commands from the next section
+1. Open `warmup.py`
+1. Code your solution
+1. Hit the Enter key in your original terminal window and repeat from step 3
 
 ## Terminal Commands
 
