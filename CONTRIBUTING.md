@@ -12,7 +12,7 @@
     1. reach out to me if I'm missing any steps!
 
 ## LLM prompt
-- NOTE: replace {new_algorithm} with your algorithm of choice  
+- NOTE: replace {new_algorithm} on line 3 with your new algorithm
 
 ``` 
 Be a senior software engineer at a big tech company who interviews engineers.
