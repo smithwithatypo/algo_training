@@ -3,7 +3,7 @@
 ## How to contribute
 1. Fork the repo
 1. Make a new branch on your local git  
-    1. `$ git switch -c my-new-branch`
+    - `$ git switch -c my-new-branch`
 1. Make a new pull request  
     1. code your changes
     1. commit locally

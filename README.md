@@ -8,7 +8,7 @@ Inspired by classical music training
 
 1. Open your terminal
 1. Install the dependencies  
-    1. `pip install -r requirements.txt`
+    - `pip install -r requirements.txt`
 1. Run one of the Terminal Commands from the next section
 1. Open `warmup.py`
 1. Code your solution
