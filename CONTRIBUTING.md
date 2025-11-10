@@ -5,11 +5,11 @@
 1. Make a new branch on your local git  
     1. `$ git switch -c my-new-branch`
 1. Make a new pull request  
-  - code your changes
-  - commit locally
-  - push to your github repo (probably named "origin")
-  - open a pull request
-  - reach out to me if I'm missing any steps!
+    1. code your changes
+    1. commit locally
+    1. push to your github repo (probably named "origin")
+    1. open a pull request
+    1. reach out to me if I'm missing any steps!
 
 ## LLM prompt
 - NOTE: replace {new_algorithm} with your algorithm of choice  
