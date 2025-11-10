@@ -20,7 +20,7 @@ Inspired by classical music training
 - Pick a WARMUP or EXERCISE from below (shown here is `binary_search`)  
 `python3 main.py binary_search`
 
-- Pick one for multiple repetitions  
+- Select multiple repetitions (shown here is 5 reptitions)  
 `python3 main.py binary_search 5`
 
 ## Warmups
