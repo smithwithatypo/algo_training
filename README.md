@@ -4,15 +4,15 @@
 Daily warmups for SWE interview prep sessions  
 Inspired by classical music training
 
-## To Use
+## How To Use
 
 1. Open your terminal
-2. Run one of the following terminal commands
-3. Open "warmup.py" in your IDE
-4. Code your solution
+2. Run one of the Terminal Commands from the next section
+3. Open `warmup.py`
+4. Code up your solution
 5. Hit "Enter" in your original terminal window and repeat from step 3
 
-## Terminal commands
+## Terminal Commands
 
 Random  
 `python3 main.py`
