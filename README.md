@@ -17,7 +17,7 @@ Inspired by classical music training
 Random  
 `python3 main.py`
 
-Pick one from below  
+Pick a WARMUP or EXERCISE from below  
 `python3 main.py binary_search`
 
 Pick one for multiple repetitions  
@@ -67,7 +67,9 @@ Pick one for multiple repetitions
 ## Quickstart automation
 
 1. Copy/paste the function below into your .zshrc file and restart your terminal  
-2. Then type `warmup` or `warmup topic 5` in your terminal to do a problem in VS Code  
+2. Then type `warmup` or `warmup binary_search 1` in your terminal to do a problem in VS Code  
+  - tip:  swap "binary_search" with a different warmup or exercise
+  - tip:  swap "1" with any integer to do several repetitions back-to-back
   
 ``` Bash
 warmup() {

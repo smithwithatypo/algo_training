@@ -12,13 +12,1934 @@ warmup.py::test_factorial FAILED                                         [100%]
 
 =================================== FAILURES ===================================
 ________________________________ test_factorial ________________________________
-warmup.py:19: in test_factorial
-    assert factorial(5) == 120
-E   assert 1 == 120
-E    +  where 1 = factorial(5)
+warmup.py:14: in test_factorial
+    assert factorial(0) == 1
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+warmup.py:10: in factorial
+    return n * factorial(n-1)
+E   RecursionError: maximum recursion depth exceeded
 =========================== short test summary info ============================
-FAILED warmup.py::test_factorial - assert 1 == 120
-============================== 1 failed in 0.03s ===============================
+FAILED warmup.py::test_factorial - RecursionError: maximum recursion depth ex...
+============================== 1 failed in 0.19s ===============================
 /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (None)/charset_normalizer (2.1.1) doesn't match a supported version!
   warnings.warn(
 
@@ -35,10 +1956,7 @@ def factorial(n):
     factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
     """
     # your code here - must use recursion
-    if n == 0 or n == 1:
-        return 1
-    else:
-        return factorial(n-1)
+    return n * factorial(n-1)
     pass
 
 def test_factorial():

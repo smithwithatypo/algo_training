@@ -7,10 +7,7 @@ def factorial(n):
     factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
     """
     # your code here - must use recursion
-    if n == 0 or n == 1:
-        return 1
-    else:
-        return factorial(n-1)
+    return n * factorial(n-1)
     pass
 
 def test_factorial():

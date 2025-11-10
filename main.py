@@ -2,8 +2,8 @@ import os
 import subprocess
 import random
 
-# from data.problems import PROBLEMS
 from data.warmups import WARMUPS
+# from data.problems import PROBLEMS
 # from data.exercises import EXERCISES
 
 
