@@ -14,13 +14,13 @@ Inspired by classical music training
 
 ## Terminal Commands
 
-Random  
+- Random  
 `python3 main.py`
 
-Pick a WARMUP or EXERCISE from below  
+- Pick a WARMUP or EXERCISE from below (shown here is `binary_search`)  
 `python3 main.py binary_search`
 
-Pick one for multiple repetitions  
+- Pick one for multiple repetitions  
 `python3 main.py binary_search 5`
 
 ## Warmups
