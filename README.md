@@ -20,7 +20,7 @@ Inspired by classical music training
 - Pick a WARMUP or EXERCISE from below (shown here is `binary_search`)  
 `python3 main.py binary_search`
 
-- Select multiple repetitions (shown here is 5 reptitions)  
+- Select multiple repetitions (shown here is 5 repetitions)  
 `python3 main.py binary_search 5`
 
 ## Warmups
@@ -64,12 +64,10 @@ Inspired by classical music training
 - greedy
 - dynamic_programming
 
-## Quickstart automation
+## (optional) Quickstart automation for MacOS or Linux
 
 1. Copy/paste the function below into your .zshrc file and restart your terminal  
 2. Then type `warmup` or `warmup binary_search 1` in your terminal to do a problem in VS Code  
-  - tip:  swap "binary_search" with a different warmup or exercise
-  - tip:  swap "1" with any integer to do several repetitions back-to-back
   
 ``` Bash
 warmup() {
