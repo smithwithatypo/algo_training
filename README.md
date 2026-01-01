@@ -27,18 +27,15 @@ Inspired by classical music training
 
 ## Warmups
 
-- binary_search
-- two_pointers
-- sliding_window
-- count
-- tree_dfs
-- recursion
-- linked_list
-- stack
+1. contains_duplicate
+1. count
+1. valid_anagram
+1. prefix_sum
+1. binary_search
 
 ## Exercises
 
-- ( under construction )
+(( under construction ))
 - binary_search
 - oop_basics
 - sliding_window

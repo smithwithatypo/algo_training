@@ -1,18 +1,16 @@
-# Rep 3/3 - Count Using Hashmap
+# Rep 1/1 - Prefix Sum
 
 
-def count_characters(s):
+def prefix_sum(arr):
     """
-    Count frequency of each character using a hashmap.
-    "hello" -> {"h": 1, "e": 1, "l": 2, "o": 1}
+    Build prefix sum array where each element is sum of all previous elements.
+    arr = [1, 2, 3, 4] -> [1, 3, 6, 10]
     """
     # your code here
-    from collections import Counter
-    return Counter(s)
     pass
 
-def test_count_characters():
-    assert count_characters("hello") == {"h": 1, "e": 1, "l": 2, "o": 1}
-    assert count_characters("aab") == {"a": 2, "b": 1}
-    assert count_characters("") == {}
-    assert count_characters("a") == {"a": 1}
+def test_prefix_sum():
+    assert prefix_sum([1, 2, 3, 4]) == [1, 3, 6, 10]
+    assert prefix_sum([5]) == [5]
+    assert prefix_sum([1, 1, 1]) == [1, 2, 3]
+    assert prefix_sum([2, -1, 3]) == [2, 1, 4]
