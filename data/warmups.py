@@ -162,4 +162,59 @@ def test_valid_parentheses():
     assert valid_parentheses("") == True
 ''',
     },
+    "prefix_sum": {
+        "title": "Prefix Sum",
+        "template": '''def prefix_sum(arr):
+    """
+    Build prefix sum array where each element is sum of all previous elements.
+    arr = [1, 2, 3, 4] -> [1, 3, 6, 10]
+    """
+    # your code here
+    pass
+
+def test_prefix_sum():
+    assert prefix_sum([1, 2, 3, 4]) == [1, 3, 6, 10]
+    assert prefix_sum([5]) == [5]
+    assert prefix_sum([1, 1, 1]) == [1, 2, 3]
+    assert prefix_sum([2, -1, 3]) == [2, 1, 4]
+''',
+    },
+    "dp": {
+        "title": "Fibonacci with Memoization",
+        "template": '''def fibonacci(n):
+    """
+    Calculate nth fibonacci number using memoization (DP).
+    fib(0) = 0, fib(1) = 1, fib(n) = fib(n-1) + fib(n-2)
+    fibonacci(5) = 5, fibonacci(10) = 55
+    """
+    # your code here
+    pass
+
+def test_fibonacci():
+    assert fibonacci(0) == 0
+    assert fibonacci(1) == 1
+    assert fibonacci(5) == 5
+    assert fibonacci(10) == 55
+    assert fibonacci(15) == 610
+''',
+    },
+    "contains_duplicate": {
+        "title": "Contains Duplicate",
+        "template": '''def contains_duplicate(nums):
+    """
+    Return True if any value appears at least twice in the array.
+    nums = [1, 2, 3, 1] -> True
+    nums = [1, 2, 3, 4] -> False
+    """
+    # your code here
+    pass
+
+def test_contains_duplicate():
+    assert contains_duplicate([1, 2, 3, 1]) == True
+    assert contains_duplicate([1, 2, 3, 4]) == False
+    assert contains_duplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]) == True
+    assert contains_duplicate([]) == False
+    assert contains_duplicate([1]) == False
+''',
+    },
 }

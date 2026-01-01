@@ -1,17 +1,18 @@
-# Rep 1/1 - Recursion
+# Rep 3/3 - Count Using Hashmap
 
 
-def factorial(n):
+def count_characters(s):
     """
-    Calculate factorial using recursion.
-    factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
+    Count frequency of each character using a hashmap.
+    "hello" -> {"h": 1, "e": 1, "l": 2, "o": 1}
     """
-    # your code here - must use recursion
-    return n * factorial(n-1)
+    # your code here
+    from collections import Counter
+    return Counter(s)
     pass
 
-def test_factorial():
-    assert factorial(0) == 1
-    assert factorial(1) == 1
-    assert factorial(5) == 120
-    assert factorial(3) == 6
+def test_count_characters():
+    assert count_characters("hello") == {"h": 1, "e": 1, "l": 2, "o": 1}
+    assert count_characters("aab") == {"a": 2, "b": 1}
+    assert count_characters("") == {}
+    assert count_characters("a") == {"a": 1}

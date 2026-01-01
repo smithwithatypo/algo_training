@@ -72,7 +72,7 @@ def warmup(problem_name=None, reps=1):
                     print("🎉 All reps complete!")
                 break
             else:
-                warning = f"# ⚠ Failed test(s) last time"
+                warning = "# ⚠ Failed test(s) last time"
                 break
     if warning == "":
         print("passed all tests!")
@@ -82,12 +82,26 @@ def warmup(problem_name=None, reps=1):
 
 if __name__ == "__main__":
     import sys
+    import random
 
     args = sys.argv[1:]
 
     if len(args) == 0:
         warmup()
     elif len(args) == 1:
-        warmup(args[0])
+        if args[0].isdigit():
+            problem_name = random.choice(list(WARMUPS.keys()))
+            warmup(problem_name, int(args[0]))
+        elif args[0] == "all":
+            for problem_name in WARMUPS:
+                warmup(problem_name, 5)
+        elif args[0] == "-h":
+            print("Available warmups:")
+            for key in WARMUPS.keys():
+                print(f"  - {key}")
+        elif args[0] in WARMUPS:
+            warmup(args[0])
+        else:
+            print(f"Unknown warmup: {args[0]}")
     else:
         warmup(args[0], int(args[1]))
