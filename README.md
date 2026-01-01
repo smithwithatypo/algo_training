@@ -66,18 +66,22 @@ Inspired by classical music training
 ## (optional) Quickstart automation for MacOS or Linux
 
 1. Copy/paste the function below into your .zshrc file and restart your terminal  
-2. Then type `warmup` or `warmup binary_search 1` in your terminal to do a problem in VS Code  
+2. Then type `warmup` in your terminal to do a problem in VS Code  
+  - or `warmup binary_search` to do once
+  - or `warmup 5` to do 5 reps of a random warmup
+  - or `warmup binary_search 5` to do 5 reps of binary_search
   
 ``` Bash
 warmup() {
-    cd /your/directory/path/here
+    cd /Users/dude/projects/python/algo-training
     if [ $# -eq 0 ]; then
-        code test_output.log
-        code warmup.py
+        code warmup.py test_output.log
         python3 main.py
+    elif [ $# -eq 1 ]; then
+        code warmup.py test_output.log
+        python3 main.py "$1"
     else
-        code test_output.log
-        code warmup.py
+        code warmup.py test_output.log
         python3 main.py "$1" "$2"
     fi
 }
