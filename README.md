@@ -70,6 +70,7 @@ Inspired by classical music training
   - or `warmup binary_search` to do once
   - or `warmup 5` to do 5 reps of a random warmup
   - or `warmup binary_search 5` to do 5 reps of binary_search
+  - or `warmup all` to do 4 reps of all available warmups
   
 ``` Bash
 warmup() {

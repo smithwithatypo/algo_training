@@ -94,7 +94,7 @@ if __name__ == "__main__":
             warmup(problem_name, int(args[0]))
         elif args[0] == "all":
             for problem_name in WARMUPS:
-                warmup(problem_name, 5)
+                warmup(problem_name, 4)
         elif args[0] == "-h":
             print("Available warmups:")
             for key in WARMUPS.keys():
