@@ -1,4 +1,5 @@
 import os
+import sys
 import subprocess
 import random
 
@@ -81,9 +82,6 @@ def warmup(problem_name=None, reps=1):
 
 
 if __name__ == "__main__":
-    import sys
-    import random
-
     args = sys.argv[1:]
 
     if len(args) == 0:
