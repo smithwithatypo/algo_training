@@ -9,81 +9,62 @@ Inspired by classical music training
 1. Open your terminal
 1. Install the dependencies  
     - `pip install -r requirements.txt`
-1. Run one of the Terminal Commands from the next section
-1. Open `warmup.py`
-1. Code your solution
-1. Hit the Enter key in your original terminal window and repeat from step 3
+1. Run any of the Terminal Commands from the next section
+1. Open `userInput/warmup.py` or `userInput/problem.py`
+1. Input your solution
+1. Hit the `Enter` key in your original terminal window and repeat from step 3
 
 ## Terminal Commands
 
-- Random  
-`python3 main.py`
+- Random warmup  
+`python3 main.py -w` 
 
-- Pick a WARMUP or EXERCISE from below (shown here is `binary_search`)  
-`python3 main.py binary_search`
+- See all available warmups  
+`python3 main.py -w -h`
 
-- Select multiple repetitions (shown here is 5 repetitions)  
-`python3 main.py binary_search 5`
+- Do a warmup for 1 repetition 
+`python3 main.py -w binary_search`
 
-## Warmups
+- Do a warmup for 3 repetitions (use any positive integer)
+`python3 main.py -w binary_search 3`
 
-1. contains_duplicate
-1. count
-1. valid_anagram
-1. prefix_sum
-1. binary_search
-
-## Exercises
-
-(( under construction ))
-- binary_search
-- oop_basics
-- sliding_window
-- contains_duplicate
-- min_heap
-- max_heap
-- two_pointers
-- sort_inplace_vs_copy
-- count_using_hashmap
-- count_alphabet_bucket_sort
-- list_comprehension
-- recursion
-- quick_sort
-- merge_sort
-- linked_list
-- tree_bfs
-- tree_dfs
-- graph_bfs
-- graph_dfs
-- dfs_directions
-- dfs_base_cases
-- stack
-- prefix_sum
-- queue
-- greedy
-- dynamic_programming
+- To do a problem (harder than warmups), just swap `-p` instead of `-w`  
+`python3 main.py -p dp 5`
 
 ## (optional) Quickstart automation for MacOS or Linux
 
-1. Copy/paste the function below into your .zshrc file and restart your terminal  
-2. Then type `warmup` in your terminal to do a problem in VS Code  
+1. Copy/paste the functions below into your .zshrc file and restart your terminal  
+2. Then type `warmup` (or `problem`) in your terminal to do a problem in VS Code  
   - or `warmup binary_search` to do once
   - or `warmup 5` to do 5 reps of a random warmup
   - or `warmup binary_search 5` to do 5 reps of binary_search
-  - or `warmup all` to do 4 reps of all available warmups
+  - or `warmup all` to do 3 reps of all available warmups
   
 ``` Bash
 warmup() {
     cd /Users/dude/projects/python/algo-training
     if [ $# -eq 0 ]; then
-        code warmup.py test_output.log
-        python3 main.py
+        code userInput/warmup.py userInput/test_output.log
+        python3 main.py -w
     elif [ $# -eq 1 ]; then
-        code warmup.py test_output.log
-        python3 main.py "$1"
+        code userInput/warmup.py userInput/test_output.log
+        python3 main.py -w "$1"
     else
-        code warmup.py test_output.log
-        python3 main.py "$1" "$2"
+        code userInput/warmup.py userInput/test_output.log
+        python3 main.py -w "$1" "$2"
+    fi
+}
+problem() {
+    cd /Users/dude/projects/python/algo-training
+    if [ $# -eq 0 ]; then
+        code userInput/problem.py userInput/test_output.log
+        python3 main.py -p
+    elif [ $# -eq 1 ]; then
+        code userInput/problem.py userInput/test_output.log
+        python3 main.py -p "$1"
+    else
+        code userInput/problem.py userInput/test_output.log
+        python3 main.py -p "$1" "$2"
     fi
 }
 ```

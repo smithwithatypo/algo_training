@@ -1,4 +1,4 @@
-EXERCISES = {
+PROBLEMS = {
     "is_palindrome": {
         "title": "Is Palindrome",
         "template": '''def is_palindrome(s):

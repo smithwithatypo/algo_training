@@ -1,105 +1,67 @@
-import os
 import sys
-import subprocess
-import random
+import commands.run_warmup
+import commands.run_problem
 
 from data.warmups import WARMUPS
-# from data.problems import PROBLEMS
-# from data.exercises import EXERCISES
+from data.problems import PROBLEMS
 
 
-def clear_screen():
-    os.system("clear" if os.name == "posix" else "cls")
-
-
-def write_problem(problem_name, rep_num=None, total_reps=None, warning=""):
-    # problem = PROBLEMS[problem_name]
-    problem = WARMUPS[problem_name]
-
-    header = (
-        f"# Rep {rep_num}/{total_reps} - {problem['title']}\n"
-        if rep_num
-        else f"{problem['title']}\n"
-    )
-    if warning:
-        header += f"{warning}\n"
-    header += "\n\n"
-
-    content = header + problem["template"]
-
-    with open("warmup.py", "w") as f:
-        f.write(content)
-
-
-def run_tests():
-    result = subprocess.run(
-        ["python3", "-m", "pytest", "warmup.py", "-v", "--tb=short", "--maxfail=10"],
-        capture_output=True,
-        text=True,
-    )
-    return result.returncode == 0, result.stdout + result.stderr
-
-
-def warmup(problem_name=None, reps=1):
-    if not problem_name:
-        # problem_name = random.choice(list(PROBLEMS.keys()))
-        problem_name = random.choice(list(WARMUPS.keys()))
-
-    warning = ""
-    for rep in range(1, reps + 1):
-        while True:
-            clear_screen()
-            write_problem(problem_name, rep, reps, warning)
-
-            input("Press Enter when ready to test...")
-
-            passed, output = run_tests()
-            with open("test_output.log", "w") as f:
-                f.write(f"passed: {passed}\n\n")
-                f.write(f"pytest output:\n {output}\n\n")
-                f.write("#" * 50 + "\n")
-                f.write("your code:\n")
-                f.write("#" * 50 + "\n")
-                try:
-                    with open("warmup.py", "r") as warmup_file:
-                        f.write(warmup_file.read())
-                except FileNotFoundError:
-                    f.write("warmup.py file not found")
-
-            if passed:
-                warning = ""
-                if rep == reps:
-                    clear_screen()
-                    print("🎉 All reps complete!")
-                break
-            else:
-                warning = "# ⚠ Failed test(s) last time"
-                break
-    if warning == "":
-        print("passed all tests!")
+def print_available(category: str):
+    if category == "warmup":
+        print("Available warmups:")
+        for key in WARMUPS.keys():
+            print(f"  - {key}")
+    elif category == "problem":
+        print("Available problems:")
+        for key in PROBLEMS.keys():
+            print(f"  - {key}")
     else:
-        print("last attempt failed test(s)")
+        print("Error: need warmup or problem for category")
+
+
+def select_int(arr):
+    for item in arr:
+        if item.isdigit():
+            return int(item)
+    else:
+        return None
 
 
 if __name__ == "__main__":
-    args = sys.argv[1:]
+    args = set(sys.argv[1:])
+    int_arg = select_int(args)
 
-    if len(args) == 0:
-        warmup()
-    elif len(args) == 1:
-        if args[0].isdigit():
-            problem_name = random.choice(list(WARMUPS.keys()))
-            warmup(problem_name, int(args[0]))
-        elif args[0] == "all":
+    if "-w" in args:
+        if "all" in args:
             for problem_name in WARMUPS:
-                warmup(problem_name, 4)
-        elif args[0] == "-h":
-            print("Available warmups:")
-            for key in WARMUPS.keys():
-                print(f"  - {key}")
-        elif args[0] in WARMUPS:
-            warmup(args[0])
+                commands.run_warmup.warmup(problem_name, 3)
+        elif "-h" in args:
+            print_available("warmup")
+        elif args & set(WARMUPS.keys()):
+            warmup_name = (args & set(WARMUPS.keys())).pop()
+            if int_arg:
+                commands.run_warmup.warmup(warmup_name, int_arg)
+            else:
+                commands.run_warmup.warmup(warmup_name)
+        elif int_arg:
+            commands.run_warmup.warmup("", int_arg)
         else:
-            print(f"Unknown warmup: {args[0]}")
+            commands.run_warmup.warmup()
+    elif "-p" in args:
+        if "all" in args:
+            for problem_name in PROBLEMS:
+                commands.run_problem.problem(problem_name, 3)
+        elif "-h" in args:
+            print_available("problem")
+        elif args & set(PROBLEMS.keys()):
+            problem_name = (args & set(PROBLEMS.keys())).pop()
+            if int_arg:
+                commands.run_problem.problem(problem_name, int_arg)
+            else:
+                commands.run_problem.problem(problem_name)
+        elif int_arg:
+            commands.run_problem.problem("", int_arg)
+        else:
+            commands.run_problem.problem()
     else:
-        warmup(args[0], int(args[1]))
+        print("Error: need -w or -p flag to run")
